@@ -396,7 +396,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .topics-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     gap: 2rem;
 }
 
@@ -1598,7 +1598,7 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .program-committee-grid {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(4, 1fr);
         gap: 1rem;
     }
 
