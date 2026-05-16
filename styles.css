@@ -636,7 +636,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Program Committee List */
 .program-committee-grid {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 2rem;
     max-width: 1200px;
     margin: 0 auto 2rem;
@@ -1533,7 +1533,7 @@ h1, h2, h3, h4, h5, h6 {
     }
     
     .program-committee-grid {
-        grid-template-columns: repeat(5, 1fr);
+        grid-template-columns: repeat(4, 1fr);
         gap: 1.5rem;
     }
 
@@ -1720,3 +1720,4 @@ html {
     opacity: 1;
     transform: translateY(0);
 }
+
