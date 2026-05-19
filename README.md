@@ -7,7 +7,7 @@ A responsive and attractive website for the **High-Performance Computing for Env
 - **Workshop Papers Submission**: July 31, 2026 (11:59 PM AoE)
 - **Workshop Acceptance Notification**: September 4, 2026 (11:59 PM AoE)
 - **Workshop Camera-ready Submission**: September 25, 2026 (11:59 PM AoE)
-- **Workshop Date**: July 15, 2026
+- **Workshop Date**: November 15, 2026
 
 ## Submission
 ## Organizing Committee
