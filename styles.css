@@ -902,6 +902,8 @@ h1, h2, h3, h4, h5, h6 {
 .keynote-image {
     position: relative;
     text-align: center;
+    align-self: start;
+    margin-top: 1.5rem;
 }
 
 .keynote-image::before,
@@ -1008,6 +1010,10 @@ h1, h2, h3, h4, h5, h6 {
 
     .keynote-content {
         align-items: center;
+    }
+
+    .keynote-image {
+        margin-top: 0;
     }
 
     .keynote-tag {
