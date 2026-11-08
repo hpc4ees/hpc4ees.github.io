@@ -1824,3 +1824,69 @@ html {
     opacity: 1;
     transform: translateY(0);
 }
+
+/* Workshop schedule */
+.workshop-schedule {
+    padding: 5rem 0;
+    background: var(--light-gray);
+}
+
+.workshop-schedule,
+.schedule-notes {
+    scroll-margin-top: 6rem;
+}
+
+.workshop-schedule a {
+    color: var(--secondary-blue);
+    text-decoration: underline;
+}
+
+.schedule-list {
+    list-style: none;
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 0 1.25rem;
+    border-radius: 0.75rem;
+    background: var(--white);
+}
+
+.schedule-list li {
+    display: grid;
+    grid-template-columns: 13rem minmax(0, 1fr);
+    gap: 1rem;
+    padding: 1rem 0;
+}
+
+.schedule-list li + li {
+    border-top: 1px solid #dce3dc;
+}
+
+.schedule-time {
+    font-weight: 700;
+    color: var(--primary-blue);
+    font-variant-numeric: tabular-nums;
+}
+
+.schedule-notes {
+    max-width: 920px;
+    margin: 1.5rem auto 0;
+    padding: 1.25rem;
+    border-left: 4px solid var(--primary-blue);
+    background: var(--white);
+}
+
+.schedule-notes h3 {
+    margin-bottom: 0.4rem;
+}
+
+@media (max-width: 600px) {
+    .schedule-list li {
+        grid-template-columns: 1fr;
+        gap: 0.25rem;
+    }
+}
+
+.hero-description a[href="#schedule"] {
+    color: inherit;
+    text-decoration: underline;
+}
