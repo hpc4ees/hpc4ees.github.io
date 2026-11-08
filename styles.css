@@ -77,9 +77,10 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--primary-blue);
 }
 
-.nav-logo i {
+.nav-logo-icon {
+    display: block;
+    flex: none;
     margin-right: 10px;
-    font-size: 1.8rem;
 }
 
 .nav-menu {
